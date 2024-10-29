@@ -1,0 +1,48 @@
+.formacao-container {
+    width: 80%; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 40px;
+    background-color: #28292b; 
+    color: #ecf0f1; 
+    border-radius: 10px; 
+    box-shadow: 15px 15px 10px rgba(19, 16, 16, 0.3);
+    min-height: 300px; 
+}
+
+.formacao-content {
+    width: 100%; 
+}
+
+.formacao-content h2 {
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+    color: #ecf0f1; 
+}
+
+.formacao-content h3 {
+    font-size: 1.3rem;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: #ecf0f1; 
+}
+
+.formacao-content ul {
+    list-style-type: none; 
+    padding: 0;
+    font-size: 1.2rem;
+    color: #bdc3c7; 
+}
+
+.formacao-content ul li {
+    font-size: 1rem;
+    color: #bdc3c7; 
+    line-height: 1.6; 
+    margin-bottom: 5px;
+}
+
+.formacao-content ul li strong {
+    color: #ecf0f1; 
+}
+
+  

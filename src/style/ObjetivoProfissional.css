@@ -1,0 +1,32 @@
+.objetivo-container {
+    width: 80%; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 40px;
+    background-color: #28292b; 
+    color: #ecf0f1;
+    border-radius: 10px; 
+    box-shadow: 15px 15px 10px rgba(19, 16, 16, 0.3); 
+    min-height: 300px; 
+}
+
+.objetivo-content {
+    width: 100%; 
+}
+
+.objetivo-content h1 {
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+    color: #ecf0f1;
+}
+
+.objetivo-content p {
+    font-size: 1.1rem;
+    color: #bdc3c7; 
+    line-height: 1.6; 
+    margin-bottom: 20px;
+}
+
+.objetivo-content p strong {
+    color: #ecf0f1; 
+}

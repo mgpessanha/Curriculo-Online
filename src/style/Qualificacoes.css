@@ -1,0 +1,40 @@
+.qualificacoes-container {
+  width: 80%; 
+  max-width: 800px; 
+  margin: 20px auto; 
+  padding: 40px;
+  background-color: #28292b;
+  color: #ecf0f1; 
+  border-radius: 10px;
+  box-shadow: 15px 15px 10px rgba(19, 16, 16, 0.3); 
+  min-height: 300px; 
+}
+
+.qualificacoes-content {
+  width: 100%;
+}
+
+.qualificacoes-content h2 {
+  font-size: 2.4rem;
+  margin-bottom: 30px;
+  color: #ecf0f1;
+}
+
+.qualificacoes-content ul {
+  list-style-type: none; 
+  padding: 0;
+  margin-bottom: 5px;
+  color: #bdc3c7; 
+}
+
+.qualificacoes-content ul li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #bdc3c7; 
+}
+
+.qualificacoes-content ul li strong{
+  font-size: 1.2rem;
+  color: #ecf0f1; 
+}
+  
