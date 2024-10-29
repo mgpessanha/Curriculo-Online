@@ -14,15 +14,15 @@ import { HistoricoProfissional } from './components/HistoricoProfissional';
 function App() {
 
   const navLinks = [
-    { path: '/', name: 'Dados Pessoais' },
-    { path: '/objetivo-profissional', name: 'Objetivo Profissional' },
-    { path: '/formacao-academica', name: 'Formação Acadêmica' },
-    { path: '/portfolio', name: 'Portfólio' },
-    { path: '/qualificacoes', name: 'Qualificações' },
-    { path: '/idiomas', name: 'Idiomas' },
-    { path: '/atividades-extracurriculares', name: 'Atividades Extracurriculares' },
-    { path: '/cursos-certificados', name: 'Cursos e Certificados' },
-    { path: '/historico-profissional', name: 'Histórico Profissional' },
+    { path: './', name: 'Dados Pessoais' },
+    { path: './objetivo-profissional', name: 'Objetivo Profissional' },
+    { path: './formacao-academica', name: 'Formação Acadêmica' },
+    { path: './portfolio', name: 'Portfólio' },
+    { path: './qualificacoes', name: 'Qualificações' },
+    { path: './idiomas', name: 'Idiomas' },
+    { path: './atividades-extracurriculares', name: 'Atividades Extracurriculares' },
+    { path: './cursos-certificados', name: 'Cursos e Certificados' },
+    { path: './historico-profissional', name: 'Histórico Profissional' },
   ];
 
   const handleOptionClick = (path) => {
