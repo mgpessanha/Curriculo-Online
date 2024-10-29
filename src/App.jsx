@@ -14,15 +14,15 @@ import { HistoricoProfissional } from './components/HistoricoProfissional';
 function App() {
 
   const navLinks = [
-    { path: './', name: 'Dados Pessoais' },
-    { path: './objetivo-profissional', name: 'Objetivo Profissional' },
-    { path: './formacao-academica', name: 'Formação Acadêmica' },
-    { path: './portfolio', name: 'Portfólio' },
-    { path: './qualificacoes', name: 'Qualificações' },
-    { path: './idiomas', name: 'Idiomas' },
-    { path: './atividades-extracurriculares', name: 'Atividades Extracurriculares' },
-    { path: './cursos-certificados', name: 'Cursos e Certificados' },
-    { path: './historico-profissional', name: 'Histórico Profissional' },
+    { path: '../', name: 'Dados Pessoais' },
+    { path: '../objetivo-profissional', name: 'Objetivo Profissional' },
+    { path: '../formacao-academica', name: 'Formação Acadêmica' },
+    { path: '../portfolio', name: 'Portfólio' },
+    { path: '../qualificacoes', name: 'Qualificações' },
+    { path: '../idiomas', name: 'Idiomas' },
+    { path: '../atividades-extracurriculares', name: 'Atividades Extracurriculares' },
+    { path: '../cursos-certificados', name: 'Cursos e Certificados' },
+    { path: '../historico-profissional', name: 'Histórico Profissional' },
   ];
 
   const handleOptionClick = (path) => {
@@ -36,15 +36,15 @@ function App() {
 
         <main className="main-content">
           <Routes>
-            <Route path="/" element={<DadosPessoais />} />
-            <Route path="/objetivo-profissional" element={<ObjetivoProfissional />} />
-            <Route path="/formacao-academica" element={<FormacaoAcademica />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/qualificacoes" element={<Qualificacoes />} />
-            <Route path="/idiomas" element={<Idiomas />} />
-            <Route path="/atividades-extracurriculares" element={<AtividadesExtracurriculares />} />
-            <Route path="/cursos-certificados" element={<CursosCertificados />} />
-            <Route path="/historico-profissional" element={<HistoricoProfissional />} />
+            <Route path="../" element={<DadosPessoais />} />
+            <Route path="../objetivo-profissional" element={<ObjetivoProfissional />} />
+            <Route path="../formacao-academica" element={<FormacaoAcademica />} />
+            <Route path="../portfolio" element={<Portfolio />} />
+            <Route path="../qualificacoes" element={<Qualificacoes />} />
+            <Route path="../idiomas" element={<Idiomas />} />
+            <Route path="../atividades-extracurriculares" element={<AtividadesExtracurriculares />} />
+            <Route path="../cursos-certificados" element={<CursosCertificados />} />
+            <Route path="../historico-profissional" element={<HistoricoProfissional />} />
           </Routes>
         </main>
       </div>
